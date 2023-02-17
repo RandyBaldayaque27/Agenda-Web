@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="js\script.js" defer></script>
+
+    <link rel="stylesheet" href="css\style.css">
+    <title>Agenda Web</title>
+</head>
+ <body>
+    <h1>Agenda</h1>
+    <form id="contact-form">
+      <input type="text" id="name-input" placeholder="Nombre">
+      <input type="text" id="lastname-input" placeholder="Apellido">
+      <input type="text" id="phone-input" placeholder="Teléfono">
+      <button type="submit">Agregar</button>
+    </form>
+    <div id="contact-list-container">
+        <table id="contact-list">
+          <thead>
+            <tr>
+              <th>Nombre</th>
+              <th>Apellido</th>
+              <th>Teléfono</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+  </body>
+</html>
